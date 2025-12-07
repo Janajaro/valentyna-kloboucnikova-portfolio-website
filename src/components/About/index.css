@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 10vw;
+    gap: 2vw;
+    flex-wrap: wrap-reverse;
+}
+
+.container div {
+    max-width: 30vw;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+.container img {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 5vw 5vw 5vw;
+    }
+
+    .container div {
+    max-width: 80vw;
+    }
+}

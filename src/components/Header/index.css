@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vw;
+}
+
+.navigation a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation img {
+  max-width: 30%;
+  height: auto;
+} 
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2vw;
+}
+
+h1 img {
+  display: block;
+  max-width: 70%;
+  height: auto;
+}
