@@ -41,14 +41,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    object-fit: contain;
     justify-content: space-around;
     align-items: center;
 }
 
 .project-gallery img {
   display: block;
-  width: 100%;
+  width: auto;
   max-width: 500px;
   height: auto;
   padding: 0vw 2vw 1vw 2vw;
