@@ -26,7 +26,7 @@
 
 .image-wrapper::before {
   content: '';
-  color: rgba(231, 151, 117, 0.6);
+  background-color: hsla(18, 70%, 68%, 0.8); 
   position: absolute;
   inset: 0;
   opacity: 0;
