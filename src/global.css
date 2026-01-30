@@ -7,9 +7,9 @@
 }
 
 body {
-  background-image: url('/img/bg_01.gif');
+  background-image: url('/img/bg_01.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   margin: 0;
 }

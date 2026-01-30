@@ -17,7 +17,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 2vw;
+  padding: 2vw 2vw 0vw;
 }
 
 .navigation a {
@@ -27,7 +27,7 @@ header {
 }
 
 .navigation img {
-  max-width: 30%;
+  max-width: 40%;
   height: auto;
 } 
 
@@ -40,7 +40,7 @@ h1 {
 
 h1 img {
   display: block;
-  max-width: 70%;
+  max-width: 40%;
   height: auto;
 }
 
