@@ -30,9 +30,12 @@ collections:
 
               - label: "Tags"
                 name: "tags"
-                widget: "list"
+                widget: "select"
+                multiple: true
                 required: false
-                field: { label: "Tag", name: "tag", widget: "string" }
+                options:
+                  - random
+                  - work
 
               - { label: "Cover image", name: "image", widget: "image", required: false }
 
@@ -42,4 +45,5 @@ collections:
                 required: false
                 field: { label: "Image", name: "image", widget: "image" }
 
-              - { label: "Buy link", name: "buy", widget: "string", required: false }
+              - { label: "Buy link", name: "buy", widget: "string", required: false, default: "" }
+
