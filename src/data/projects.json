@@ -30,21 +30,6 @@
         "/img/chrt (2).png"
       ],
       "buy": ""
-    },
-    {
-      "id": 3,
-      "name": "něco něco",
-      "shortDescription": "něco",
-      "longDescription": "jkflsdjfs",
-      "tags": [
-        "random",
-        "work"
-      ],
-      "image": "/uploads/img_1270.jpg",
-      "gallery": [
-        "/uploads/kanya_poster.jpg",
-        "/uploads/img_1270.jpg"
-      ]
     }
   ]
 }
