@@ -1,4 +1,4 @@
-import '../gallery.css'
+import "../Gallery/gallery.css";
 import { IndividualGallery } from '../IndividualGallery';
 import { individualProjects } from "../../data.js"
 

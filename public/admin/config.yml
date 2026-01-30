@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: main  
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    files:
+      - file: "src/data/projects.json"
+        label: "Projects list"
+        name: "projectsFile"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+
+              - { label: "Name", name: "name", widget: "string" }
+
+              - { label: "Short description", name: "shortDescription", widget: "string", required: false }
+
+              - { label: "Long description", name: "longDescription", widget: "text", required: false }
+
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                required: false
+                field: { label: "Tag", name: "tag", widget: "string" }
+
+              - { label: "Cover image", name: "image", widget: "image", required: false }
+
+              - label: "Gallery images"
+                name: "gallery"
+                widget: "list"
+                required: false
+                field: { label: "Image", name: "image", widget: "image" }
+
+              - { label: "Buy link", name: "buy", widget: "string", required: false }

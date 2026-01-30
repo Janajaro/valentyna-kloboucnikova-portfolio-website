@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "/img/Snímek obrazovky 2025-11-25 204814.png",
+      "name": "Nice People",
+      "shortDescription": "Toto je projekt, který vznikla jako bla bla",
+      "longDescription": "Lorem ipsum...",
+      "tags": ["random"],
+      "gallery": [
+        "/img/chrt (2).png",
+        "/img/chrt (3).png",
+        "/img/Snímek obrazovky 2025-03-31 135841.png"
+      ],
+      "buy": "https://knihy.artmap.cz/en/nice-people/"
+    },
+    {
+      "id": 2,
+      "image": "/img/chrt (3).png",
+      "name": "Komiks pro klienta",
+      "shortDescription": "Toto je projekt...",
+      "longDescription": "Lorem ipsum...",
+      "tags": ["work"],
+      "gallery": [
+        "/img/chrt (1).png",
+        "/img/chrt (2).png"
+      ],
+      "buy": ""
+    }
+  ]
+}
