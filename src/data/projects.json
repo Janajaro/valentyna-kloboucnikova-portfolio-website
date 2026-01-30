@@ -6,7 +6,9 @@
       "name": "Nice People",
       "shortDescription": "Toto je projekt, který vznikla jako bla bla",
       "longDescription": "Lorem ipsum...",
-      "tags": ["random"],
+      "tags": [
+        "random"
+      ],
       "gallery": [
         "/img/chrt (2).png",
         "/img/chrt (3).png",
@@ -20,12 +22,26 @@
       "name": "Komiks pro klienta",
       "shortDescription": "Toto je projekt...",
       "longDescription": "Lorem ipsum...",
-      "tags": ["work"],
+      "tags": [
+        "work"
+      ],
       "gallery": [
         "/img/chrt (1).png",
         "/img/chrt (2).png"
       ],
       "buy": ""
+    },
+    {
+      "id": 3,
+      "name": "něco něco",
+      "shortDescription": "něco",
+      "longDescription": "jkflsdjfs",
+      "tags": [],
+      "image": "/uploads/img_1270.jpg",
+      "gallery": [
+        "/uploads/kanya_poster.jpg",
+        "/uploads/img_1270.jpg"
+      ]
     }
   ]
 }
