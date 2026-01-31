@@ -21,7 +21,7 @@
 }
 
 .project-text {
-    width: 45vw;
+    max-width: 25vw;
 }
 
 .project-buy {
