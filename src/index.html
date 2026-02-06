@@ -4,12 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valentyna-Kloboučniková</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
-    <script type="module" src="/index.jsx"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Redirect Identity token to /admin/ -->
+    <script>
+      (function () {
+        const h = window.location.hash || "";
+        const isIdentityToken =
+          h.startsWith("#invite_token=") ||
+          h.startsWith("#confirmation_token=") ||
+          h.startsWith("#recovery_token=");
+
+        if (isIdentityToken && !window.location.pathname.startsWith("/admin")) {
+          window.location.replace("/admin/" + h);
+        }
+      })();
+    </script>
   </head>
+
   <body>
     <div id="app"></div>
+
+    <!-- Your app entry -->
+    <script type="module" src="/index.jsx"></script>
   </body>
 </html>
