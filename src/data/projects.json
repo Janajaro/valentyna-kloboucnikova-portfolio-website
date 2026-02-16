@@ -30,6 +30,16 @@
         "/img/chrt (2).png"
       ],
       "buy": ""
+    },
+    {
+      "buy": "",
+      "id": 3,
+      "name": "Ahojík",
+      "shortDescription": "Lalalílá",
+      "tags": [
+        "work"
+      ],
+      "image": "/uploads/whatsapp-image-2026-02-12-at-09.36.32.jpeg"
     }
   ]
 }
