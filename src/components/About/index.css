@@ -6,7 +6,6 @@
     padding-right: 20vw;
     padding-bottom: 10vw;
     gap: 2vw;
-    flex-wrap: wrap-reverse;
 }
 
 .container div {
@@ -27,9 +26,14 @@
 @media screen and (max-width: 1200px) {
     .container {
         padding: 0 5vw 5vw 5vw;
+        flex-wrap: wrap-reverse;
     }
 
     .container div {
-    max-width: 80vw;
+         max-width: 80vw;
+    }
+
+    .container img {
+        max-width: 80vw;
     }
 }
