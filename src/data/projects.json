@@ -30,6 +30,18 @@
         "/img/chrt (2).png"
       ],
       "buy": ""
+    },
+    {
+      "buy": "",
+      "id": 3,
+      "name": "testtest26/2",
+      "shortDescription": "toto je test",
+      "longDescription": "bla bla bla hdfhskjdfhkjfdhsjkfh  bla bla bla hdfhskjdfhkjfdhsjkfh bla bla bla hdfhskjdfhkjfdhsjkfh bla bla bla hdfhskjdfhkjfdhsjkfh bla bla bla hdfhskjdfhkjfdhsjkfh ",
+      "tags": [
+        "random",
+        "work"
+      ],
+      "image": "/uploads/transcodedwallpaper.jpg"
     }
   ]
 }
