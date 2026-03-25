@@ -4,7 +4,11 @@
       "buy": "",
       "id": 1,
       "name": "this page is currently still in the making!! kisses! x",
-      "image": "/uploads/untitled_artwork-2.png"
+      "image": "/uploads/untitled_artwork-2.png",
+      "tags": [
+        "work",
+        "random"
+      ]
     }
   ]
 }
