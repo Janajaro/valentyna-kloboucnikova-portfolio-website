@@ -43,6 +43,27 @@
         "/uploads/img_6968.jpg",
         "/uploads/img_69606.jpg"
       ]
+    },
+    {
+      "buy": "",
+      "id": 4,
+      "name": "Já se tě bojím, a ty mě?",
+      "longDescription": "Kniha se zabývá mezilidskými vztahy a problémy, které s nimi souvisí. Je vytvořena na základě odpovědí na dotazník publikovaný na Instagramu. Kniha se dělí na 3 kapitoly s názvy „Komunikace“, „Důvěra“ a „Řešení“). Ve všech 3 kapitolách lze najít různorodé odpovědi na otázky týkající se právě mezilidských vztahů doprovázené hravými ilustracemi. Tištěno na risografu ve studiu Paper Can Dance. ",
+      "shortDescription": "Kniha se zabývá mezilidskými vztahy a problémy, které s nimi souvisí. Je vytvořena na základě odpovědí na dotazník publikovaný na Instagramu. Kniha se dělí na 3 kapitoly s názvy „Komunikace“, „Důvěra“ a „Řešení“). Ve všech 3 kapitolách lze najít různorodé odpovědi na otázky týkající se právě mezilidských vztahů doprovázené hravými ilustracemi. Tištěno na risografu ve studiu Paper Can Dance. ",
+      "tags": [
+        "work"
+      ],
+      "image": "/uploads/img_6831.jpg",
+      "gallery": [
+        "/uploads/img_6826.jpg",
+        "/uploads/img_6832.jpg",
+        "/uploads/img_6834.jpg",
+        "/uploads/img_6841.jpg",
+        "/uploads/img_6845.jpg",
+        "/uploads/img_6849.jpg",
+        "/uploads/img_6851.jpg",
+        "/uploads/img_6852.jpg"
+      ]
     }
   ]
 }
