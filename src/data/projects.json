@@ -26,6 +26,23 @@
         "/uploads/komiks17-2.jpg"
       ],
       "longDescription": "Nice People is a risograph-printed comic zine in which the author reflects on creativity, friendship, and the longing for connection, understanding, and meaningful relationships. At the same time, it’s a light-hearted celebration of community and time spent together — finding joy in shared existence beyond the pressures of productivity and the capitalist mindset."
+    },
+    {
+      "buy": "",
+      "id": 2,
+      "name": "Słoń nastąpił ci na ucho?",
+      "shortDescription": "Słoń nastąpił ci na ucho? je kniha polských a českých přísloví a pořekadel pro děti. Z jedné strany leporela najdete přísloví česká, z druhé strany jejich polské ekvivalenty.",
+      "longDescription": "Słoń nastąpił ci na ucho? je kniha polských a českých přísloví a pořekadel pro děti. Z jedné strany leporela najdete přísloví česká, z druhé strany jejich polské ekvivalenty.",
+      "tags": [
+        "work"
+      ],
+      "image": "/uploads/img_6945-3.jpg",
+      "gallery": [
+        "/uploads/img_6970.jpg",
+        "/uploads/img_6968.jpg",
+        "/uploads/img_6968.jpg",
+        "/uploads/img_69606.jpg"
+      ]
     }
   ]
 }
