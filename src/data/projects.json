@@ -71,7 +71,7 @@
     },
     {
       "buy": "",
-      "id": 6,
+      "id": 5,
       "name": "Zdejší z Neoterry",
       "tags": [
         "work"
@@ -92,6 +92,19 @@
       "image": "/uploads/snímek-obrazovky-2026-05-09-v 22.50.51.png",
       "shortDescription": "Autorčina bakalářská práce. Kniha je pojatá jako deník průzkumníka, který se vydal prozkoumat nově objevenou planetu. Obyvatele planety si pro sebe pracovně pojmenoval „Zdejší“. ",
       "longDescription": "Autorčina bakalářská práce. Kniha je pojatá jako deník průzkumníka, který se vydal prozkoumat nově objevenou planetu. Obyvatele planety si pro sebe pracovně pojmenoval „Zdejší“. "
+    },
+    {
+      "buy": "",
+      "id": 6,
+      "name": "Ilustrace pro knihkupectví ArtMap",
+      "image": "/uploads/img_2452.jpg",
+      "gallery": [
+        "/uploads/img_2453.jpg",
+        "/uploads/img_2457.jpg",
+        "/uploads/img_2459.jpg",
+        "/uploads/img_2455.jpg"
+      ],
+      "longDescription": "Grafický design: Petr Hrůza"
     }
   ]
 }
