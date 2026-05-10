@@ -10,7 +10,7 @@
   font-family: "Stack Sans Headline", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-style: normal;
 }
 
@@ -43,11 +43,11 @@
   position: absolute;
   inset: 0;                
   color: rgb(240, 230, 230);
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem;
   opacity: 0;         
-  transition: opacity 0.2s ease;
+  transition: opacity 0.3s ease;
   pointer-events: none;    /* text neblokuje hover */
 }
 

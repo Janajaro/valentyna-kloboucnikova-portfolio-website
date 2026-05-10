@@ -1,95 +1,181 @@
 .container-not-found {
-    display: flex;
-    flex-direction: column;
-    font-family: "Stack Sans Headline", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-size: 2rem;
-    font-style: normal;
-    padding: 2% 30%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Stack Sans Headline", sans-serif;
+  font-weight: 300;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  padding: 2rem;
 }
 
 .project-detail {
-    display: flex;
-    flex-direction: row;
-    font-family: "Stack Sans Headline", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-size: 1rem;
-    font-style: normal;
-    padding: 0vw 8vw;
+  width: min(100% - 2rem, 1400px);
+  margin: 0 auto;
+  padding: clamp(1rem, 4vw, 4rem) 0;
+
+  display: grid;
+  grid-template-columns: minmax(16rem, 24rem) 1fr;
+  gap: clamp(2rem, 5vw, 5rem);
+
+  font-family: "Stack Sans Headline", sans-serif;
+  font-weight: 300;
 }
 
 .project-text {
-    max-width: 25vw;
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+.project-text h1 {
+  font-size: clamp(2rem, 4vw, 4.2rem);
+  line-height: 0.95;
+  margin-bottom: 1.5rem;
+}
+
+.project-text p {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+  line-height: 1.5;
+  max-width: 34rem;
+}
+
+.back-link,
+.project-buy {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.back-link {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
 }
 
 .project-buy {
-    font-weight: bold;
-    padding-top: 1em;
+  margin-top: 1.5rem;
+  font-weight: 700;
 }
 
-.project-buy a,
-.project-buy a:hover,
-.project-buy a:active,
-.project-buy a:visited {
-  text-decoration: none;
-  color: black;
+.back-link:hover,
+.project-buy:hover {
+  text-decoration: underline;
 }
 
 .project-gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: clamp(0.8rem, 2vw, 1.5rem);
+  align-items: start;
 }
 
-.project-gallery img {
-  display: block;
-  width: auto;
-  max-width: 500px;
+.gallery-item {
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
   height: auto;
-  padding: 0vw 2vw 1vw 2vw;
+  display: block;
   object-fit: contain;
 }
 
-.gallery-thumb {
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
+/* LIGHTBOX */
 
 .lightbox-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(255, 255, 255, 0.80);
+  background: rgba(255, 255, 255, 0.92);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 999;
+  padding: 2rem;
 }
 
 .lightbox-image {
   max-width: 95vw;
-  max-height: 95vh;
+  max-height: 90vh;
   object-fit: contain;
 }
 
-@media screen and (max-width: 1500px) {
+.lightbox-close {
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  border: 0;
+  background: none;
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.lightbox-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  background: none;
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 1;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.lightbox-arrow-left {
+  left: 1rem;
+}
+
+.lightbox-arrow-right {
+  right: 1rem;
+}
+
+.lightbox-arrow:hover,
+.lightbox-close:hover {
+  opacity: 0.5;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 900px) {
   .project-detail {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.9rem;
-    gap: 4vw;
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 
   .project-text {
-    max-width: 90vw;
+    position: static;
   }
 
-  .project-gallery img {
-    max-width: 90vw;
-    padding: 1vw 4vw; 
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lightbox-overlay {
+    padding: 1rem;
+  }
+
+  .lightbox-arrow {
+    font-size: 4rem;
+    padding: 0.5rem;
+  }
+
+  .lightbox-arrow-left {
+    left: 0;
+  }
+
+  .lightbox-arrow-right {
+    right: 0;
+  }
+
+  .lightbox-close {
+    top: 0.5rem;
+    right: 1rem;
   }
 }
